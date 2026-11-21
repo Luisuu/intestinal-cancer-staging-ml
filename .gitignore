@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# MCP config — contains the Jupyter auth token
+.mcp.json
+
+# Large data (coadread_tcga_pan_can_atlas_2018.tar is ~2.4 GB)
+data/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# macOS
+.DS_Store
+
+# Jupyter auth token
+.jupyter_token
+
+# Personal working notes (not for the repository)
+supports/
+
+# Local helper (needs .venv and .jupyter_token, which are not in the repo)
+start-jupyter.sh
+
+# Obsidian settings, if the notes folder is opened as a vault
+.obsidian/

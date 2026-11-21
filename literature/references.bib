@@ -1,0 +1,383 @@
+% ============================================================================
+% references.bib
+% Thesis: Staging and explainability (features) from multi-modal data
+%         (clinical and genomic) for colorectal cancer
+%
+% One entry per source considered so far. Notes on each source are in
+% literature/notes/<citation key>.md
+% Metadata for journal articles was taken from the DOI registration records
+% (doi.org / Crossref) on 2026-11-10 and checked against the PDFs.
+% ============================================================================
+
+
+% ---------------------------------------------------------------------------
+% 1. Epidemiology and clinical background
+% ---------------------------------------------------------------------------
+
+@article{bray2024globocan,
+  author  = {Bray, Freddie and Laversanne, Mathieu and Sung, Hyuna and Ferlay, Jacques and Siegel, Rebecca L. and Soerjomataram, Isabelle and Jemal, Ahmedin},
+  title   = {Global cancer statistics 2022: {GLOBOCAN} estimates of incidence and mortality worldwide for 36 cancers in 185 countries},
+  journal = {CA: A Cancer Journal for Clinicians},
+  year    = {2024},
+  volume  = {74},
+  number  = {3},
+  pages   = {229--263},
+  doi     = {10.3322/caac.21834},
+  url     = {https://doi.org/10.3322/caac.21834}
+}
+
+@article{siegel2023crc,
+  author  = {Siegel, Rebecca L. and Wagle, Nikita Sandeep and Cercek, Andrea and Smith, Robert A. and Jemal, Ahmedin},
+  title   = {Colorectal cancer statistics, 2023},
+  journal = {CA: A Cancer Journal for Clinicians},
+  year    = {2023},
+  volume  = {73},
+  number  = {3},
+  pages   = {233--254},
+  doi     = {10.3322/caac.21772},
+  url     = {https://doi.org/10.3322/caac.21772}
+}
+
+@article{deng2017rectal,
+  author  = {Deng, Yanhong},
+  title   = {Rectal Cancer in {Asian} vs. {Western} Countries: Why the Variation in Incidence?},
+  journal = {Current Treatment Options in Oncology},
+  year    = {2017},
+  volume  = {18},
+  number  = {10},
+  pages   = {64},
+  doi     = {10.1007/s11864-017-0500-2},
+  url     = {https://doi.org/10.1007/s11864-017-0500-2}
+}
+
+
+% ---------------------------------------------------------------------------
+% 3. Data sources
+% ---------------------------------------------------------------------------
+
+@article{tcga2012coadread,
+  author  = {{The Cancer Genome Atlas Network}},
+  title   = {Comprehensive molecular characterization of human colon and rectal cancer},
+  journal = {Nature},
+  year    = {2012},
+  volume  = {487},
+  number  = {7407},
+  pages   = {330--337},
+  doi     = {10.1038/nature11252},
+  url     = {https://doi.org/10.1038/nature11252}
+}
+
+@article{liu2018tcgacdr,
+  author  = {Liu, Jianfang and Lichtenberg, Tara and Hoadley, Katherine A. and Poisson, Laila M. and Lazar, Alexander J. and Cherniack, Andrew D. and Kovatich, Albert J. and Benz, Christopher C. and Levine, Douglas A. and Lee, Adrian V. and Omberg, Larsson and Wolf, Denise M. and Shriver, Craig D. and Thorsson, Vesteinn and {The Cancer Genome Atlas Research Network} and Hu, Hai},
+  title   = {An Integrated {TCGA} Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics},
+  journal = {Cell},
+  year    = {2018},
+  volume  = {173},
+  number  = {2},
+  pages   = {400--416.e11},
+  doi     = {10.1016/j.cell.2018.02.052},
+  url     = {https://doi.org/10.1016/j.cell.2018.02.052}
+}
+
+
+% ---------------------------------------------------------------------------
+% 4. Machine learning for colorectal cancer staging and stage components
+% ---------------------------------------------------------------------------
+
+@article{finn2023claims,
+  author  = {Finn, Caitlin B. and Sharpe, James E. and Tong, Jason K. and Kaufman, Elinore J. and Wachtel, Heather and Aarons, Cary B. and Weissman, Gary E. and Kelz, Rachel R.},
+  title   = {Development of a Machine Learning Model to Identify Colorectal Cancer Stage in {Medicare} Claims},
+  journal = {JCO Clinical Cancer Informatics},
+  year    = {2023},
+  volume  = {7},
+  pages   = {e2300003},
+  doi     = {10.1200/CCI.23.00003},
+  url     = {https://doi.org/10.1200/CCI.23.00003}
+}
+
+@article{wei2024distant,
+  author  = {Wei, Ran and Yu, Guanhua and Wang, Xishan and Jiang, Zheng and Guan, Xu},
+  title   = {Construction and validation of machine learning models for predicting distant metastases in newly diagnosed colorectal cancer patients: A large-scale and real-world cohort study},
+  journal = {Cancer Medicine},
+  year    = {2024},
+  volume  = {13},
+  number  = {5},
+  pages   = {e6971},
+  doi     = {10.1002/cam4.6971},
+  url     = {https://doi.org/10.1002/cam4.6971}
+}
+
+@article{ahn2021lymph,
+  author  = {Ahn, Ji Hyun and Kwak, Min Seob and Lee, Hun Hee and Cha, Jae Myung and Shin, Hyun Phil and Jeon, Jung Won and Yoon, Jin Young},
+  title   = {Development of a Novel Prognostic Model for Predicting Lymph Node Metastasis in Early Colorectal Cancer: Analysis Based on the {Surveillance, Epidemiology, and End Results} Database},
+  journal = {Frontiers in Oncology},
+  year    = {2021},
+  volume  = {11},
+  pages   = {614398},
+  doi     = {10.3389/fonc.2021.614398},
+  url     = {https://doi.org/10.3389/fonc.2021.614398}
+}
+
+@article{qiu2022liver,
+  author  = {Qiu, Binxu and Su, Xiao hu and Qin, Xinxin and Wang, Quan},
+  title   = {Application of machine learning techniques in real-world research to predict the risk of liver metastasis in rectal cancer},
+  journal = {Frontiers in Oncology},
+  year    = {2022},
+  volume  = {12},
+  pages   = {1065468},
+  doi     = {10.3389/fonc.2022.1065468},
+  url     = {https://doi.org/10.3389/fonc.2022.1065468}
+}
+
+@article{hu2021methylation,
+  author  = {Hu, Ji and Zhao, Fu-ying and Huang, Bin and Ran, Jing and Chen, Mei-yuan and Liu, Hai-lin and Deng, You-song and Zhao, Xia and Han, Xiao-fan},
+  title   = {An Eight-{CpG}-based Methylation Classifier for Preoperative Discriminating Early and Advanced-Late Stage of Colorectal Cancer},
+  journal = {Frontiers in Genetics},
+  year    = {2021},
+  volume  = {11},
+  pages   = {614160},
+  doi     = {10.3389/fgene.2020.614160},
+  url     = {https://doi.org/10.3389/fgene.2020.614160}
+}
+
+
+% ---------------------------------------------------------------------------
+% 5. Machine learning for colorectal cancer survival (and explainability)
+% ---------------------------------------------------------------------------
+
+@misc{poorhasani2026stage,
+  author        = {Poorhasani, Parisa and Iancu, Bogdan},
+  title         = {Stage-specific cancer survival prediction enriched by explainable machine learning},
+  year          = {2026},
+  eprint        = {2601.03977},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2601.03977},
+  url           = {https://arxiv.org/abs/2601.03977},
+  note          = {Preprint, not peer reviewed}
+}
+
+@article{adatorwovor2025survival,
+  author  = {Adatorwovor, Reuben and Ogunsanya, Motolani E. and Huang, Bin and Charnigo, Richard and Abraham, Olufunmilola},
+  title   = {Comparison of Machine Learning Models for Colon Cancer Survival: Predictive Modeling Approach},
+  journal = {JMIR Cancer},
+  year    = {2025},
+  volume  = {11},
+  pages   = {e72665},
+  doi     = {10.2196/72665},
+  url     = {https://doi.org/10.2196/72665}
+}
+
+@article{dai2023nomogram,
+  author  = {Dai, Xuan and Wang, Haoran and Lu, Yaqi and Chen, Yan and Liu, Yun and Huang, Shiyong},
+  title   = {Development and Validation of a Nomogram to Predict Overall Survival in Stage {I}--{III} Colorectal Cancer Patients after Radical Resection with Normal Preoperative Serum Carcinoembryonic Antigen},
+  journal = {Cancers},
+  year    = {2023},
+  volume  = {15},
+  number  = {23},
+  pages   = {5643},
+  doi     = {10.3390/cancers15235643},
+  url     = {https://doi.org/10.3390/cancers15235643}
+}
+
+@article{zhou2023integrative,
+  author  = {Zhou, Jie and Foroughi pour, Ali and Deirawan, Hany and Daaboul, Fayez and Aung, Thazin Nwe and Beydoun, Rafic and Ahmed, Fahad Shabbir and Chuang, Jeffrey H.},
+  title   = {Integrative deep learning analysis improves colon adenocarcinoma patient stratification at risk for mortality},
+  journal = {eBioMedicine},
+  year    = {2023},
+  volume  = {94},
+  pages   = {104726},
+  doi     = {10.1016/j.ebiom.2023.104726},
+  url     = {https://doi.org/10.1016/j.ebiom.2023.104726}
+}
+
+
+% ---------------------------------------------------------------------------
+% 6. Methodology: evaluation, validity and reporting of prediction models
+% ---------------------------------------------------------------------------
+
+@article{christodoulou2019systematic,
+  author  = {Christodoulou, Evangelia and Ma, Jie and Collins, Gary S. and Steyerberg, Ewout W. and Verbakel, Jan Y. and Van Calster, Ben},
+  title   = {A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models},
+  journal = {Journal of Clinical Epidemiology},
+  year    = {2019},
+  volume  = {110},
+  pages   = {12--22},
+  doi     = {10.1016/j.jclinepi.2019.02.004},
+  url     = {https://doi.org/10.1016/j.jclinepi.2019.02.004}
+}
+
+@article{vancalster2019calibration,
+  author  = {Van Calster, Ben and McLernon, David J. and van Smeden, Maarten and Wynants, Laure and Steyerberg, Ewout W. and {on behalf of Topic Group `Evaluating diagnostic tests and prediction models' of the STRATOS initiative}},
+  title   = {Calibration: the {Achilles} heel of predictive analytics},
+  journal = {BMC Medicine},
+  year    = {2019},
+  volume  = {17},
+  number  = {1},
+  pages   = {230},
+  doi     = {10.1186/s12916-019-1466-7},
+  url     = {https://doi.org/10.1186/s12916-019-1466-7}
+}
+
+@article{vandengoorbergh2022imbalance,
+  author  = {van den Goorbergh, Ruben and van Smeden, Maarten and Timmerman, Dirk and Van Calster, Ben},
+  title   = {The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression},
+  journal = {Journal of the American Medical Informatics Association},
+  year    = {2022},
+  volume  = {29},
+  number  = {9},
+  pages   = {1525--1534},
+  doi     = {10.1093/jamia/ocac093},
+  url     = {https://doi.org/10.1093/jamia/ocac093}
+}
+
+@article{kapoor2023leakage,
+  author  = {Kapoor, Sayash and Narayanan, Arvind},
+  title   = {Leakage and the reproducibility crisis in machine-learning-based science},
+  journal = {Patterns},
+  year    = {2023},
+  volume  = {4},
+  number  = {9},
+  pages   = {100804},
+  doi     = {10.1016/j.patter.2023.100804},
+  url     = {https://doi.org/10.1016/j.patter.2023.100804}
+}
+
+@article{collins2024tripodai,
+  author  = {Collins, Gary S. and Moons, Karel G. M. and Dhiman, Paula and Riley, Richard D. and Beam, Andrew L. and Van Calster, Ben and Ghassemi, Marzyeh and Liu, Xiaoxuan and Reitsma, Johannes B. and van Smeden, Maarten and Boulesteix, Anne-Laure and Camaradou, Jennifer Catherine and Celi, Leo Anthony and Denaxas, Spiros and Denniston, Alastair K. and Glocker, Ben and Golub, Robert M. and Harvey, Hugh and Heinze, Georg and Hoffman, Michael M. and Kengne, Andr{\'e} Pascal and Lam, Emily and Lee, Naomi and Loder, Elizabeth W. and Maier-Hein, Lena and Mateen, Bilal A. and McCradden, Melissa D. and Oakden-Rayner, Lauren and Ordish, Johan and Parnell, Richard and Rose, Sherri and Singh, Karandeep and Wynants, Laure and Logullo, Patricia},
+  title   = {{TRIPOD+AI} statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods},
+  journal = {BMJ},
+  year    = {2024},
+  volume  = {385},
+  pages   = {e078378},
+  doi     = {10.1136/bmj-2023-078378},
+  url     = {https://doi.org/10.1136/bmj-2023-078378}
+}
+
+
+% ---------------------------------------------------------------------------
+% 7. Clinical staging standard (AJCC TNM)
+% ---------------------------------------------------------------------------
+
+@article{amin2017bridge,
+  author  = {Amin, Mahul B. and Greene, Frederick L. and Edge, Stephen B. and Compton, Carolyn C. and Gershenwald, Jeffrey E. and Brookland, Robert K. and Meyer, Laura and Gress, Donna M. and Byrd, David R. and Winchester, David P.},
+  title   = {The Eighth Edition {AJCC} Cancer Staging Manual: Continuing to build a bridge from a population-based to a more ``personalized'' approach to cancer staging},
+  journal = {CA: A Cancer Journal for Clinicians},
+  year    = {2017},
+  volume  = {67},
+  number  = {2},
+  pages   = {93--99},
+  doi     = {10.3322/caac.21388},
+  url     = {https://doi.org/10.3322/caac.21388}
+}
+
+@article{weiser2018ajcc8crc,
+  author  = {Weiser, Martin R.},
+  title   = {{AJCC} 8th Edition: Colorectal Cancer},
+  journal = {Annals of Surgical Oncology},
+  year    = {2018},
+  volume  = {25},
+  number  = {6},
+  pages   = {1454--1455},
+  doi     = {10.1245/s10434-018-6462-1},
+  url     = {https://doi.org/10.1245/s10434-018-6462-1}
+}
+
+
+% ---------------------------------------------------------------------------
+% 8. Data platform and TCGA PanCancer Atlas (citations required for the data)
+% ---------------------------------------------------------------------------
+
+@article{cerami2012cbioportal,
+  author  = {Cerami, Ethan and Gao, Jianjiong and Dogrusoz, Ugur and Gross, Benjamin E. and Sumer, Selcuk Onur and Aksoy, B{\"u}lent Arman and Jacobsen, Anders and Byrne, Caitlin J. and Heuer, Michael L. and Larsson, Erik and Antipin, Yevgeniy and Reva, Boris and Goldberg, Arthur P. and Sander, Chris and Schultz, Nikolaus},
+  title   = {The {cBio} Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data},
+  journal = {Cancer Discovery},
+  year    = {2012},
+  volume  = {2},
+  number  = {5},
+  pages   = {401--404},
+  doi     = {10.1158/2159-8290.CD-12-0095},
+  url     = {https://doi.org/10.1158/2159-8290.CD-12-0095}
+}
+
+@article{gao2013cbioportal,
+  author  = {Gao, Jianjiong and Aksoy, B{\"u}lent Arman and Dogrusoz, Ugur and Dresdner, Gideon and Gross, Benjamin and Sumer, S. Onur and Sun, Yichao and Jacobsen, Anders and Sinha, Rileen and Larsson, Erik and Cerami, Ethan and Sander, Chris and Schultz, Nikolaus},
+  title   = {Integrative Analysis of Complex Cancer Genomics and Clinical Profiles Using the {cBioPortal}},
+  journal = {Science Signaling},
+  year    = {2013},
+  volume  = {6},
+  number  = {269},
+  pages   = {pl1},
+  doi     = {10.1126/scisignal.2004088},
+  url     = {https://doi.org/10.1126/scisignal.2004088}
+}
+
+@article{hoadley2018celloforigin,
+  author  = {Hoadley, Katherine A. and Yau, Christina and Hinoue, Toshinori and Wolf, Denise M. and Lazar, Alexander J. and Drill, Esther and Shen, Ronglai and Taylor, Alison M. and Cherniack, Andrew D. and Thorsson, V{\'e}steinn and Akbani, Rehan and Bowlby, Reanne and Wong, Christopher K. and Wiznerowicz, Maciej and Sanchez-Vega, Francisco and Robertson, A. Gordon and Schneider, Barbara G. and Lawrence, Michael S. and Noushmehr, Houtan and Malta, Tathiane M. and {The Cancer Genome Atlas Network} and Stuart, Joshua M. and Benz, Christopher C. and Laird, Peter W.},
+  title   = {Cell-of-Origin Patterns Dominate the Molecular Classification of 10,000 Tumors from 33 Types of Cancer},
+  journal = {Cell},
+  year    = {2018},
+  volume  = {173},
+  number  = {2},
+  pages   = {291--304.e6},
+  doi     = {10.1016/j.cell.2018.03.022},
+  url     = {https://doi.org/10.1016/j.cell.2018.03.022}
+}
+
+@article{liu2018giadeno,
+  author  = {Liu, Yang and Sethi, Nilay S. and Hinoue, Toshinori and Schneider, Barbara G. and Cherniack, Andrew D. and Sanchez-Vega, Francisco and Seoane, Jose A. and Farshidfar, Farshad and Bowlby, Reanne and Islam, Mirazul and Kim, Jaegil and Chatila, Walid and Akbani, Rehan and Kanchi, Rupa S. and Rabkin, Charles S. and Willis, Joseph E. and Wang, Kenneth K. and McCall, Shannon J. and Mishra, Lopa and Ojesina, Akinyemi I. and Bullman, Susan and Pedamallu, Chandra Sekhar and Lazar, Alexander J. and Sakai, Ryo and {The Cancer Genome Atlas Research Network} and Thorsson, V{\'e}steinn and Bass, Adam J. and Laird, Peter W.},
+  title   = {Comparative Molecular Analysis of Gastrointestinal Adenocarcinomas},
+  journal = {Cancer Cell},
+  year    = {2018},
+  volume  = {33},
+  number  = {4},
+  pages   = {721--735.e8},
+  doi     = {10.1016/j.ccell.2018.03.010},
+  url     = {https://doi.org/10.1016/j.ccell.2018.03.010}
+}
+
+
+% ---------------------------------------------------------------------------
+% 9. Molecular subtypes
+% ---------------------------------------------------------------------------
+
+
+% ---------------------------------------------------------------------------
+% 10. Explainability methods
+% ---------------------------------------------------------------------------
+
+@inproceedings{lundberg2017shap,
+  author    = {Lundberg, Scott M. and Lee, Su-In},
+  title     = {A Unified Approach to Interpreting Model Predictions},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  editor    = {Guyon, I. and Von Luxburg, U. and Bengio, S. and Wallach, H. and Fergus, R. and Vishwanathan, S. and Garnett, R.},
+  publisher = {Curran Associates, Inc.},
+  year      = {2017},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html},
+  note      = {Preprint: arXiv:1705.07874}
+}
+
+@article{lundberg2020treeshap,
+  author  = {Lundberg, Scott M. and Erion, Gabriel and Chen, Hugh and DeGrave, Alex and Prutkin, Jordan M. and Nair, Bala and Katz, Ronit and Himmelfarb, Jonathan and Bansal, Nisha and Lee, Su-In},
+  title   = {From local explanations to global understanding with explainable {AI} for trees},
+  journal = {Nature Machine Intelligence},
+  year    = {2020},
+  volume  = {2},
+  number  = {1},
+  pages   = {56--67},
+  doi     = {10.1038/s42256-019-0138-9},
+  url     = {https://doi.org/10.1038/s42256-019-0138-9}
+}
+
+@inproceedings{ribeiro2016lime,
+  author    = {Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos},
+  title     = {``Why Should {I} Trust You?'': Explaining the Predictions of Any Classifier},
+  booktitle = {Proceedings of the 22nd {ACM SIGKDD} International Conference on Knowledge Discovery and Data Mining},
+  publisher = {ACM},
+  year      = {2016},
+  pages     = {1135--1144},
+  doi       = {10.1145/2939672.2939778},
+  url       = {https://doi.org/10.1145/2939672.2939778},
+  note      = {Preprint: arXiv:1602.04938}
+}
